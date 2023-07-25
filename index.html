@@ -149,9 +149,6 @@ body.active .wrapper .section{
         </div>
         <div class="sidebar">
             <div class="profile">
-                <!-- 
-                <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg" alt="profile_picture">
-                -->
                 <img src="logo.png" alt="Knights of Columbus #13026" width="285" height="285">
                 <h3>Knights of Columbus</h3>
                 <p>Council 13026</p>
@@ -210,7 +207,8 @@ body.active .wrapper .section{
         
     </div>
   <script>
-       var hamburger = document.querySelector(".hamburger");
+    // Listener to toggle sidebar and section
+    var hamburger = document.querySelector(".hamburger");
 	hamburger.addEventListener("click", function(){
 		document.querySelector("body").classList.toggle("active");
         console.log(hamburger);
