@@ -172,12 +172,14 @@ body.active .wrapper .section{
                         <span class="item">Officers</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="item">Perfomance</span>
-                    </a>
-                </li>
+                <div id="perfId">
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                            <span class="item">Perfomance</span>
+                    <   /a>
+                    </li>
+                </div>
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-database"></i></span>
@@ -210,11 +212,19 @@ body.active .wrapper .section{
     // Listener to toggle sidebar and section
     var hamburger = document.querySelector(".hamburger");
     var sidebar = document.querySelector(".sidebar");
+    var perf = document.getElementById("perfId");
 	hamburger.addEventListener("click", function(){
 		document.querySelector("body").classList.toggle("active");
         console.log(hamburger);
         console.log(sidebar);
 	})
+
+    perf.addEventListener("click", changePerf(), true);
+    function changePerf() {
+        var sectionCont = document.querySelector(".container");
+        console.log(sectionCont);
+    }
+    })
   </script>
 </body>
 </html>
