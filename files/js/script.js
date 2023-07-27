@@ -11,5 +11,5 @@ hamburger.addEventListener("click", function(){
 officersId.addEventListener("click", function(){
 var sectionCont = document.querySelector(".container");
     console.log(sectionCont);
-    sectionCont = "This is the officers page."
+    sectionCont.textContent = "This is the officers page."
 })
