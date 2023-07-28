@@ -1,4 +1,5 @@
 // Listener to toggle sidebar and section
+var sidebar = document.querySelector(".sidebar");
 var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function(){
 	document.querySelector("body").classList.toggle("active");
