@@ -11,8 +11,8 @@ var officersId = document.getElementById("officers");
 var sectionCont = document.querySelector(".container");
 console.log(sectionCont);
 officersId.addEventListener("click", function(){
-    document.querySelector("officers").classList.toggle("active");
-    document.querySelector("home").classList.toggle("");
+    //document.querySelector("officers").classList.toggle("active");
+    //document.querySelector("home").classList.toggle("");
     sectionCont.textContent = "This is the officers page."
 })
 var homeId = document.getElementById("home");
