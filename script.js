@@ -19,6 +19,8 @@ officersId.addEventListener("click", function(){
 //var options = sidebarContainer.getElementsByClassName("btn");
     //document.querySelector("officers").classList.toggle("active");
     //document.querySelector("home").classList.toggle("");
+    var current = document.getElementsByClassName("active");
+    console.log(current);
     sectionCont.textContent = "This is the officers page."
 })
 
