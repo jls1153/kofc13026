@@ -25,5 +25,7 @@ officersId.addEventListener("click", function(){
 var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
     console.log(homeId);
+    var current = document.getElementsByClassName("active");
+    console.log(current);
     sectionCont.textContent = "This is the home page."
 })
