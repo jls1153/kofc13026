@@ -12,7 +12,7 @@ var sectionCont = document.querySelector(".container");
 console.log(sectionCont);
 officersId.addEventListener("click", function(){
     // Get the container element
-var sidebarContainer = document.getElementById("sidebar");
+//var sidebarContainer = document.getElementById("sidebar");
 
 
 // Get all options with class="sidebar" inside the container
@@ -23,6 +23,7 @@ var sidebarContainer = document.getElementById("sidebar");
 })
 var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
+    var sidebarContainer = document.getElementById("sidebar");
     console.log(sidebarContainer);
     sectionCont.textContent = "This is the home page."
 })
