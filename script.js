@@ -21,6 +21,8 @@ officersId.addEventListener("click", function(){
     //document.querySelector("home").classList.toggle("");
     var current = document.getElementsByClassName("active");
     console.log(current);
+    var options = document.getElementsByClassName("options");
+    console.log(options);
     sectionCont.textContent = "This is the officers page."
 })
 
