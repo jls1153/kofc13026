@@ -23,7 +23,7 @@ officersId.addEventListener("click", function(){
     console.log(current);
     var options = document.getElementsByClassName("options");
     console.log(options);
-    sectionCont.textContent = "This is the officers page."
+    //sectionCont.textContent = "This is the officers page."
 })
 
 var homeId = document.getElementById("home");
@@ -32,5 +32,4 @@ homeId.addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
     console.log(current);
     //sectionCont.textContent = "This is the home page."
-    sectionCont.textContent = "home.html"
 })
