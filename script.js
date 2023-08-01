@@ -32,4 +32,7 @@ homeId.addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
     console.log(current);
     //sectionCont.textContent = "This is the home page."
+    const homeText = document.querySelector("#homeText").innerHTML;
+    console.log(homeText);
+    container.innerHTML = homeText;
 })
