@@ -33,9 +33,9 @@ homeId.addEventListener("click", function(){
     //var current = document.getElementsByClassName("active");
     //console.log(current);
 
-    //sectionCont.textContent = homeHtml;
+    sectionCont.textContent = (homeHtml);
 
-    document.getElementById(".container").innerHTML = (homeHtml);
+    //document.getElementById(".container").innerHTML = (homeHtml);
     //const homeText = document.querySelector("#homeText").innerHTML;
     //console.log(homeText);
     //container.innerHTML = homeText;
