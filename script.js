@@ -29,7 +29,8 @@ officersId.addEventListener("click", function(){
 var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
     console.log(homeId);
-    var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>`;
+    var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>
+    <p><i>Serving Saint Francis Parish and the Litchfield NH Community</i></p>`;
     //var current = document.getElementsByClassName("active");
     //console.log(current);
 
