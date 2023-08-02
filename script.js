@@ -35,7 +35,7 @@ homeId.addEventListener("click", function(){
 
     sectionCont.textContent = (homeHtml);
 
-    //document.getElementById(".container").innerHTML = (homeHtml);
+    document.getElementById("display").innerHTML = (homeHtml);
     //const homeText = document.querySelector("#homeText").innerHTML;
     //console.log(homeText);
     //container.innerHTML = homeText;
