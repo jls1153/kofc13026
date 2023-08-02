@@ -28,7 +28,7 @@ officersId.addEventListener("click", function(){
     //console.log(current);
     //var options = document.getElementsByClassName("options");
     //console.log(options);
-    var OfficersHtml = `<h1><center>2023-2024 Council Officers</center></h1>;
+    var OfficersHtml = `<h1><center>2023-2024 Council Officers</center></h1>`;
     document.getElementById("display").innerHTML = (OfficersHtml);
     //sectionCont.textContent = "This is the officers page."
 })
