@@ -32,7 +32,10 @@ homeId.addEventListener("click", function(){
     var homeHtml = `<p> Welcome to Council 13026 </p>`;
     //var current = document.getElementsByClassName("active");
     //console.log(current);
-    sectionCont.textContent = homeHtml;
+
+    //sectionCont.textContent = homeHtml;
+
+    document.getElementById('container').innerHTML = (homeHtml);
     //const homeText = document.querySelector("#homeText").innerHTML;
     //console.log(homeText);
     //container.innerHTML = homeText;
