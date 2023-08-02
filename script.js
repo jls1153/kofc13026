@@ -29,11 +29,11 @@ officersId.addEventListener("click", function(){
 var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
     console.log(homeId);
-    var homeHtml = `<p> Welcome to Council 13026 </p>`;
+    var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>`;
     //var current = document.getElementsByClassName("active");
     //console.log(current);
 
-    sectionCont.textContent = (homeHtml);
+    //sectionCont.textContent = (homeHtml);
 
     document.getElementById("display").innerHTML = (homeHtml);
     //const homeText = document.querySelector("#homeText").innerHTML;
