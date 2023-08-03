@@ -13,10 +13,6 @@ body{
    background: #f5f6fa;
 }
 
-#display {
-   backgound-image: url("HomeCrossBackground.jpg");
-}
-
 .wrapper .sidebar{
    background: rgb(5, 68, 104);
    position: fixed;
@@ -109,7 +105,8 @@ body{
 
 .wrapper .section .container{
   margin: 30px;
-  background: #fff;
+  /* background: #fff; */
+  backgound-image: url("HomeCrossBackground.jpg");
   padding: 50px;
   line-height: 28px;
 }
