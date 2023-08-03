@@ -13,6 +13,9 @@ body{
    background: #f5f6fa;
 }
 
+#disp {
+   backgound-image: url("HomeCrossBackground.jpg");
+}
 .wrapper .sidebar{
    background: rgb(5, 68, 104);
    position: fixed;
