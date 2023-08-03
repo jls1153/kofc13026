@@ -1,7 +1,7 @@
 // Initialize the Home Page
    var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>
     <p><center><i>Serving Saint Francis Parish and the Litchfield NH Community</center></i></p>
-    <div id="disp">
+    <div id="display">
         <p>
         The Knights of Columbus' principles of Charity, Unity, Fraternity and Patriotism serve as the basis of the Order's core values which are Integrity, Professionalism, Excellence, and Respect.
         </p>
