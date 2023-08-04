@@ -45,22 +45,26 @@ insuranceId.addEventListener("click", function(){
         <p>Guided by our Catholic faith, we are on a mission to help expand
         your financial security at every step of your family's journey.</p>
         <br>
-        <ul>
-        <li>Life Insurance</li>
-        <li>Disability Income Insurance</li>
-        <li>Long-Term Care Insurance</li>
-        <li>Retirement Annuities</li>
-        <li>And more...</li> 
-        </ul>
+        <div class="insOptions">
+            <ul>
+                <li>Life Insurance</li>
+                <li>Disability Income Insurance</li>
+                <li>Long-Term Care Insurance</li>
+                <li>Retirement Annuities</li>
+                <li>And more...</li> 
+                </ul>
+        </div>
         <br>
         <p>Call your local agent today!</p>
         <br>
-        <p>
-        <li>Kevin Brown</li>
-        <li>Field Agent</li>
-        <li>Office: (603)305-0204</li>
-        <li>kevin.brown@kofc.org</li>
-        </p>`;
+        <div class=<insContact">
+            <ul>
+                <li>Kevin Brown</li>
+                <li>Field Agent</li>
+                <li>Office: (603)305-0204</li>
+                <li>kevin.brown@kofc.org</li>
+            </ul>
+        </div>`;
     document.getElementById("display").innerHTML = (insuranceHtml);
 })
 // Listener for Reports Selection

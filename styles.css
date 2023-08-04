@@ -121,6 +121,10 @@ body{
    float: left;
 }
 
+.insOptions .insContact {
+   text-align: center;
+}
+
 body.active .wrapper .sidebar{
    left: -225px;
 }
