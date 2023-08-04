@@ -35,18 +35,22 @@ var activitiesId = document.getElementById("activities");
 activitiesId.addEventListener("click", function(){
     var activitiesHtml = `<h1><center>Activities</center></h1>`;
     document.getElementById("display").innerHTML = (activitiesHtml);
+})    
 // Listener for Insurance Selection
 var insuranceId = document.getElementById("insurance");
 insuranceId.addEventListener("click", function(){
     var insuranceHtml = `<h1><center>Insurance</center></h1>`;
     document.getElementById("display").innerHTML = (insuranceHtml);
+})
 // Listener for Reports Selection
 var reportsId = document.getElementById("reports");
 reportsId.addEventListener("click", function(){
     var reportsHtml = `<h1><center>Reports</center></h1>`;
     document.getElementById("display").innerHTML = (reportsHtml);
+})
 // Listener for Links Selection
 var linksId = document.getElementById("links");
 linksId.addEventListener("click", function(){
     var linksHtml = `<h1><center>Links</center></h1>`;
     document.getElementById("display").innerHTML = (linksHtml);
+})
