@@ -3,10 +3,10 @@
     <p><center><i>Serving Saint Francis Parish and the Litchfield NH Community</center></i></p>
     <div class="image">
         <img src="HomeCross.jpg" width="300" height="300">
-      </div>
-      <div class="text">
+      //</div>
+      //<div class="text">
         <p>Founded in 2001, our Council strives to follow the Knights of Columbus' principles of Charity, Unity, Fraternity and Patriotism which serve as the basis of the Order's core values which are Integrity, Professionalism, Excellence, and Respect.</p>
-      </div>`;
+    </div>`;
     document.getElementById("display").innerHTML = (homeHtml);
 
 // Listener to toggle sidebar and container section
