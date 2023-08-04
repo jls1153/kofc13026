@@ -40,27 +40,27 @@ activitiesId.addEventListener("click", function(){
 // Listener for Insurance Selection
 var insuranceId = document.getElementById("insurance");
 insuranceId.addEventListener("click", function(){
-    var insuranceHtml = `<br>
-    <p>Guided by our Catholic faith, we are on a mission to help expand
-    your financial security at every step of your family's journey.</p>
-    <br>
-    <ul>
-    <li>Life Insurance</li>
-    <li>Disability Income Insurance</li>
-    <li>Long-Term Care Insurance</li>
-    <li>Retirement Annuities</li>   
-    </ul>
-    <br>
-    <h1>Call your local agent today!</h1>
-    <br>
-    <h2>
-    Kevin Brown
-    Field Agent
-    Office: (603)305-0204
-    kevin.brown@kofc.org
-    </h2>
-
-    `;
+    var insuranceHtml = `<h1><center>Insurance</center></h1>
+        <br>
+        <p>Guided by our Catholic faith, we are on a mission to help expand
+        your financial security at every step of your family's journey.</p>
+        <br>
+        <ul>
+        <li>Life Insurance</li>
+        <li>Disability Income Insurance</li>
+        <li>Long-Term Care Insurance</li>
+        <li>Retirement Annuities</li>
+        <li>And more...</li> 
+        </ul>
+        <br>
+        <p>Call your local agent today!</p>
+        <br>
+        <p>
+        <li>Kevin Brown</li>
+        <li>Field Agent</li>
+        <li>Office: (603)305-0204</li>
+        <li>kevin.brown@kofc.org</li>
+        </p>`;
     document.getElementById("display").innerHTML = (insuranceHtml);
 })
 // Listener for Reports Selection
