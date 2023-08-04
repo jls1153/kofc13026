@@ -112,8 +112,8 @@ body{
 }
 
 .image {
-   max-width: 25%;
-   max-height: 15%;
+   width: 285;
+   max-height: 285;
    float: left;
 }
 
