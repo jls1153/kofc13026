@@ -111,17 +111,17 @@ body{
   color: #00008b;
 }
 
-.image {
+.wrapper .section .container .image {
    width: 10;
    max-height: 10;
    float: left;
 }
 
-.text {
+.wrapper .section .container .text {
    float: left;
 }
 
-.insOptions .insContact {
+.wrapper .section .container .insOptions .insContact {
    text-align: center;
 }
 
