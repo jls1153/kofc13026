@@ -13,13 +13,40 @@ var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function(){
 	document.querySelector("body").classList.toggle("active");
 })
+// Listener for Home Selection
+var homeId = document.getElementById("home");
+homeId.addEventListener("click", function(){
+    document.getElementById("display").innerHTML = (homeHtml);
+})
+// Listener for Membership Selection
+var membershipId = document.getElementById("membership");
+membershipId.addEventListener("click", function(){
+    var membershipHtml = `<h1><center>Membership</center></h1>`;
+    document.getElementById("display").innerHTML = (membershipHtml);
+})
+// Listener for Officers Selection
 var officersId = document.getElementById("officers");
 officersId.addEventListener("click", function(){
     var officersHtml = `<h1><center>2023-2024 Council Officers</center></h1>`;
     document.getElementById("display").innerHTML = (officersHtml);
 })
-
-var homeId = document.getElementById("home");
-homeId.addEventListener("click", function(){
-    document.getElementById("display").innerHTML = (homeHtml);
-})
+// Listener for Activities Selection
+var activitiesId = document.getElementById("activities");
+activitiesId.addEventListener("click", function(){
+    var activitiesHtml = `<h1><center>Activities</center></h1>`;
+    document.getElementById("display").innerHTML = (activitiesHtml);
+// Listener for Insurance Selection
+var insuranceId = document.getElementById("insurance");
+insuranceId.addEventListener("click", function(){
+    var insuranceHtml = `<h1><center>Insurance</center></h1>`;
+    document.getElementById("display").innerHTML = (insuranceHtml);
+// Listener for Reports Selection
+var reportsId = document.getElementById("reports");
+reportsId.addEventListener("click", function(){
+    var reportsHtml = `<h1><center>Reports</center></h1>`;
+    document.getElementById("display").innerHTML = (reportsHtml);
+// Listener for Links Selection
+var linksId = document.getElementById("links");
+linksId.addEventListener("click", function(){
+    var linksHtml = `<h1><center>Links</center></h1>`;
+    document.getElementById("display").innerHTML = (linksHtml);
