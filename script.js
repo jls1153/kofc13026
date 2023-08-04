@@ -2,7 +2,7 @@
   var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>
     <p><center><i>Serving Saint Francis Parish and the Litchfield NH Community</center></i></p>
     <div class="image">
-        <img src="HomeCross.jpg">
+        <img src="HomeCross2.jpg">
     </div>
     <div class="text">
         <p>Founded in 2001, our Council strives to follow the Knights of Columbus' principles of Charity, Unity, Fraternity and Patriotism which serve as the basis of the Order's core values which are Integrity, Professionalism, Excellence, and Respect.</p>
@@ -40,7 +40,27 @@ activitiesId.addEventListener("click", function(){
 // Listener for Insurance Selection
 var insuranceId = document.getElementById("insurance");
 insuranceId.addEventListener("click", function(){
-    var insuranceHtml = `<h1><center>Insurance</center></h1>`;
+    var insuranceHtml = `<br>
+    <p>Guided by our Catholic faith, we are on a mission to help expand
+    your financial security at every step of your family's journey.</p>
+    <br>
+    <ul>
+    <li>Life Insurance</li>
+    <li>Disability Income Insurance</li>
+    <li>Long-Term Care Insurance</li>
+    <li>Retirement Annuities</li>   
+    </ul>
+    <br>
+    <h1>Call your local agent today!</h1>
+    <br>
+    <h2>
+    Kevin Brown
+    Field Agent
+    Office: (603)305-0204
+    kevin.brown@kofc.org
+    </h2>
+
+    `;
     document.getElementById("display").innerHTML = (insuranceHtml);
 })
 // Listener for Reports Selection
