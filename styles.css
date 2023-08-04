@@ -105,8 +105,7 @@ body{
 
 .wrapper .section .container{
   margin: 30px;
-  /* background: #fff; */
-  backgound-image: url("HomeCrossBackground.jpg");
+  background: #fff;
   padding: 50px;
   line-height: 28px;
 }
