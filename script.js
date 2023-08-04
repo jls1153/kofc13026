@@ -4,7 +4,7 @@
     <br>
     <div>
         <img src="HomeCross.jpg" width="300" height="300">
-        <p>Founded in 2001, our Council strives to follow the Knights of Columbus' principles of Charity, Unity, Fraternity and Patriotism which serve as the basis of the Order's core values which are Integrity, Professionalism, Excellence, and Respect.</p>
+        <p>Founded in 2001</p>
     </div>`;
     document.getElementById("display").innerHTML = (homeHtml);
 
