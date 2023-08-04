@@ -108,6 +108,7 @@ body{
   background: #fff;
   padding: 50px;
   line-height: 28px;
+  color: #00008b;
 }
 
 body.active .wrapper .sidebar{
