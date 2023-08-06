@@ -29,8 +29,9 @@ hamburger.addEventListener("click", function(){
 })
 // Listener for Home Selection
 //var homeId = document.getElementById("home");
-var homeId = document.getElementById("section1");
-homeId.addEventListener("click", function(){
+//var homeId = document.getElementById("section1");
+//homeId.addEventListener("click", function(){
+section1.addEventListener("click", function(){
     //document.getElementById("display").innerHTML = (homeHtml);
     showSection(section1);
 })
