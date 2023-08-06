@@ -1,5 +1,10 @@
 // New code
 const section1 = document.getElementById('section1');
+const section2 = document.getElementById('section2');
+const section3 = document.getElementById('section3');
+const hamburger = document.querySelector(".hamburger");
+const homeId = document.getElementById("home");
+const membershipId = document.getElementById("membership");
 window.addEventListener('load', function() {
   showSection(section1);
 });
@@ -12,21 +17,15 @@ function showSection(section) {
 
 
 // Listener to toggle sidebar and container section
-var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function(){
 	document.querySelector("body").classList.toggle("active");
 })
 // Listener for Home Selection
-var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
-    //document.getElementById("section1").innerHTML = (homeHtml);
     showSection(section1);
 })
 // Listener for Membership Selection
-var membershipId = document.getElementById("membership");
 membershipId.addEventListener("click", function(){
-    var membershipHtml = `<h1><center>Membership</center></h1>`;
-    document.getElementById("section2").innerHTML = (membershipHtml);
     showSection(section2);
 })
 // Listener for Officers Selection
