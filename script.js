@@ -28,10 +28,8 @@ hamburger.addEventListener("click", function(){
 	document.querySelector("body").classList.toggle("active");
 })
 // Listener for Home Selection
-//var homeId = document.getElementById("home");
-//var homeId = document.getElementById("section1");
-//homeId.addEventListener("click", function(){
-home.addEventListener("click", function(){
+var homeId = document.getElementById("home");
+homeId.addEventListener("click", function(){
     //document.getElementById("display").innerHTML = (homeHtml);
     showSection(section1);
 })
