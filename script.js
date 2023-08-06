@@ -37,7 +37,8 @@ homeId.addEventListener("click", function(){
 var membershipId = document.getElementById("membership");
 membershipId.addEventListener("click", function(){
     var membershipHtml = `<h1><center>Membership</center></h1>`;
-    document.getElementById("display").innerHTML = (membershipHtml);
+    document.getElementById("section2").innerHTML = (membershipHtml);
+    showSection(section2);
 })
 // Listener for Officers Selection
 var officersId = document.getElementById("officers");
