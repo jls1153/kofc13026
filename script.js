@@ -31,7 +31,7 @@ hamburger.addEventListener("click", function(){
 //var homeId = document.getElementById("home");
 //var homeId = document.getElementById("section1");
 //homeId.addEventListener("click", function(){
-section1.addEventListener("click", function(){
+home.addEventListener("click", function(){
     //document.getElementById("display").innerHTML = (homeHtml);
     showSection(section1);
 })
