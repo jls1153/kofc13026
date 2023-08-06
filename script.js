@@ -11,17 +11,6 @@ function showSection(section) {
 }
 
 
-// Initialize the Home Page
-  var homeHtml = `<h1><center>Welcome to Council 13026</center></h1>
-    <p><center><i>Serving Saint Francis Parish and the Litchfield NH Community</center></i></p>
-    <div class="image">
-        <img src="HomeCross2.jpg">
-    </div>
-    <div class="text">
-        <p>Founded in 2001, our Council strives to follow the Knights of Columbus' principles of Charity, Unity, Fraternity and Patriotism which serve as the basis of the Order's core values which are Integrity, Professionalism, Excellence, and Respect.</p>
-    </div>`;
-    document.getElementById("section1").innerHTML = (homeHtml);
-
 // Listener to toggle sidebar and container section
 var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function(){
@@ -30,7 +19,7 @@ hamburger.addEventListener("click", function(){
 // Listener for Home Selection
 var homeId = document.getElementById("home");
 homeId.addEventListener("click", function(){
-    document.getElementById("section1").innerHTML = (homeHtml);
+    //document.getElementById("section1").innerHTML = (homeHtml);
     showSection(section1);
 })
 // Listener for Membership Selection
