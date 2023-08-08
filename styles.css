@@ -102,15 +102,16 @@ body{
    color: #a2ecff;
 }
 
-/*
 
-.wrapper .section .section1 .section2 .section3 .section4 .section5{
+.wrapper .section .section1{
   margin: 30px;
   background: #fff;
   padding: 50px;
   line-height: 28px;
   color: #00008b;
 }
+
+/*
 
 .wrapper .section .section1 .image {
    width: 10;
