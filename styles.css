@@ -116,7 +116,8 @@ body{
    float: left;
 }
 
-.wrapper .section .section1 p{
+.wrapper .section .section1 h1{
+    text-align: center;
     color: #00008b;
 }
 
