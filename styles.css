@@ -116,6 +116,10 @@ body{
    float: left;
 }
 
+.wrapper .section .section1 p{
+    color: #00008b;
+}
+
 .wrapper .section .section1 .text {
    float: right;
 }
