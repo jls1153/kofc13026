@@ -110,8 +110,6 @@ body{
   color: #00008b;
 }
 
-
-
 .wrapper .section .section1 .image {
    width: 10;
    max-height: 10;
@@ -119,7 +117,7 @@ body{
 }
 
 .wrapper .section .section1 .text {
-   float: left;
+   float: right;
 }
 
 .wrapper .section .section5 .insOptions .insContact {
