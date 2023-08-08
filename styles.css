@@ -91,7 +91,6 @@ body{
    display: flex;
    align-items: center;
    padding: 0 30px;
- 
 }
 
 .wrapper .section .top_navbar .hamburger a{
@@ -111,17 +110,19 @@ body{
   color: #00008b;
 }
 
-.wrapper .section .container .image {
+
+
+.wrapper .section .section1 .image {
    width: 10;
    max-height: 10;
    float: left;
 }
 
-.wrapper .section .container .text {
+.wrapper .section .section1 .text {
    float: left;
 }
 
-.wrapper .section .container .insOptions .insContact {
+.wrapper .section .section5 .insOptions .insContact {
    text-align: center;
 }
 
