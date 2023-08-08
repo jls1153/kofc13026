@@ -102,6 +102,8 @@ body{
    color: #a2ecff;
 }
 
+/*
+
 .wrapper .section .section1 .section2 .section3 .section4 .section5{
   margin: 30px;
   background: #fff;
@@ -116,11 +118,14 @@ body{
    float: left;
 }
 
+*/
+
 .wrapper .section .section1 h1{
     text-align: center;
     color: #00008b;
 }
 
+/*
 .wrapper .section .section1 .text {
    float: right;
 }
@@ -128,6 +133,7 @@ body{
 .wrapper .section .section5 .insOptions .insContact {
    text-align: center;
 }
+*/
 
 body.active .wrapper .sidebar{
    left: -225px;
