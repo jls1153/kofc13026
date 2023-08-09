@@ -103,7 +103,7 @@ body{
 }
 
 
-.wrapper .section .section1.section2{
+.wrapper .section .section1,.section2{
   margin: 30px;
   background: #fff;
   padding: 50px;
@@ -121,7 +121,7 @@ body{
 
 */
 
-.wrapper .section .section1.section2 h1{
+.wrapper .section .section1,.section2 h1{
     text-align: center;
     color: #00008b;
     font-size: 16px;
