@@ -43,25 +43,24 @@ homeId.addEventListener("click", function(){
 // Listener for Membership Selection
 membershipId.addEventListener("click", function(){
     showSection(section2);
-})
+});
 // Listener for Officers Selection
 officersId.addEventListener("click", function(){
     showSection(section3);
-})
+});
 // Listener for Activities Selection
-
 activitiesId.addEventListener("click", function(){
     showSection(section4);
-})    
+});   
 // Listener for Insurance Selection
 insuranceId.addEventListener("click", function(){
      showSection(section5);
-})
+});
 // Listener for Reports Selection
 reportsId.addEventListener("click", function(){
      showSection(section6);
-})
+});
 // Listener for Links Selection
 linksId.addEventListener("click", function(){
     showSection(section7);
-})
+});
