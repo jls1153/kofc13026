@@ -29,7 +29,7 @@ function showSection(section) {
   section6.style.display = 'none';
   section7.style.display = 'none';
   section.style.display = 'block';
-}
+};
 
 
 // Listener to toggle sidebar and container section
