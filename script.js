@@ -13,7 +13,7 @@ const officersId = document.getElementById("officers");
 const activitiesId = document.getElementById("activities");
 const insuranceId = document.getElementById("insurance");
 const reportsId = document.getElementById("reports");
-const linksId = document.getElementById("links");
+const linksId = document.getElementById("ourlinks");
 
 // Initialize section to home
 window.addEventListener('load', function() {
