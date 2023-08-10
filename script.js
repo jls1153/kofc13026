@@ -35,11 +35,11 @@ function showSection(section) {
 // Listener to toggle sidebar and container section
 hamburger.addEventListener("click", function(){
 	document.querySelector("body").classList.toggle("active");
-})
+});
 // Listener for Home Selection
 homeId.addEventListener("click", function(){
     showSection(section1);
-})
+});
 // Listener for Membership Selection
 membershipId.addEventListener("click", function(){
     showSection(section2);
