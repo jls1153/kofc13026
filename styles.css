@@ -131,11 +131,11 @@ body{
 .wrapper .section .section1 .text {
    float: right;
 }
-
-.wrapper .section .section5 .insOptions .insContact {
-   text-align: center;
-}
 */
+
+.wrapper .section .section5 .insOptions ul{
+   list-style-type: circle;
+}
 
 body.active .wrapper .sidebar{
    left: -225px;
