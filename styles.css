@@ -133,7 +133,7 @@ body{
 }
 */
 
-.wrapper .section .section5 .insOptions ul{
+.wrapper .section .section5 .insOptions ul li{
    list-style-type: circle;
 }
 
