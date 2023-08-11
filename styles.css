@@ -140,6 +140,10 @@ body{
    display: list-item;
 }
 
+.wrapper .section .section5 div.optionsList{
+    text-align: center;
+}
+
 
 body.active .wrapper .sidebar{
    left: -225px;
