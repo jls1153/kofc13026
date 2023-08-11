@@ -134,7 +134,7 @@ body{
 */
 
 .wrapper .section .section5 .insOptionsList {
-    text-align: justify;
+    text-align: center;
 }
 
 /* .wrapper .section .section5 ul li{ */
@@ -142,6 +142,7 @@ body{
    list-style-type: circle;
    list-style-position: inside;
    display: list-item;
+   text-align: justify;
 }
 
 body.active .wrapper .sidebar{
