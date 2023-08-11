@@ -138,11 +138,14 @@ body{
    list-style-type: circle;
    list-style-position: inside;
    display: list-item;
+   text-align: center;
 }
 
+/*
 .wrapper .section .section5 .optionsList li{
     text-align: center;
 }
+*/
 
 
 body.active .wrapper .sidebar{
