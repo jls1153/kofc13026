@@ -140,7 +140,7 @@ body{
    display: list-item;
 }
 
-.wrapper .section .section5 .optionsList div{
+.wrapper .section .section5 .optionsList ul{
     text-align: center;
 }
 
