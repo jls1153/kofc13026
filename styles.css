@@ -133,20 +133,16 @@ body{
 }
 */
 
+.wrapper .section .section5 .insOptionsList {
+    text-align: center;
+}
+
 /* .wrapper .section .section5 ul li{ */
 .wrapper .section .section5 .insOptions li{
    list-style-type: circle;
    list-style-position: inside;
    display: list-item;
-   text-align: center;
 }
-
-/*
-.wrapper .section .section5 .optionsList li{
-    text-align: center;
-}
-*/
-
 
 body.active .wrapper .sidebar{
    left: -225px;
