@@ -142,7 +142,7 @@ body{
    list-style-type: circle;
    list-style-position: inside;
    display: inline-block;
-   text-align: left;
+   text-align: justify;
 }
 
 body.active .wrapper .sidebar{
