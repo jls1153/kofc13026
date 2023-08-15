@@ -143,6 +143,8 @@ body{
    list-style-position: inside;
    /* display: inline-block; */
    text-align: justify;
+   width: 50%;
+   margin: auto;
 }
 
 body.active .wrapper .sidebar{
