@@ -142,7 +142,7 @@ body{
    list-style-type: circle;
    list-style-position: inside;
    /* display: inline-block; */
-   text-align: justify;
+   /* text-align: justify; */
    width: 50%;
    margin: auto;
 }
