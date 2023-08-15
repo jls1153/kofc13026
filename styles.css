@@ -102,7 +102,6 @@ body{
    color: #a2ecff;
 }
 
-
 .wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7{
   margin: 30px;
   background: #fff;
@@ -111,15 +110,11 @@ body{
   color: #00008b;
 }
 
-/*
-
-.wrapper .section .section1 .image {
-   width: 10;
-   max-height: 10;
-   float: left;
+.wrapper .section .section .section 7 h1{
+    text-align: center;
+    color: #00008b;
+    font-size: 18px; 
 }
-
-*/
 
 .wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7 h1{
     text-align: center;
