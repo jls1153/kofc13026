@@ -141,8 +141,8 @@ body{
 .wrapper .section .section5 .insOptions li a{
    list-style-type: circle;
    list-style-position: inside;
-   /* display: inline-block;
-   text-align: center; */
+   /* display: inline-block; */
+   text-align: justify;
 }
 
 body.active .wrapper .sidebar{
