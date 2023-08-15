@@ -141,10 +141,13 @@ body{
 .wrapper .section .section5 .insOptions li{
    list-style-type: circle;
    list-style-position: inside;
-   /* display: inline-block; */
-   /* text-align: justify; */
-   width: 50%;
+   display: inline-block;
+   width: 30%;
    margin: auto;
+}
+
+.wrapper .section .section5 .insOptions ul{
+   text-align: justify;
 }
 
 body.active .wrapper .sidebar{
