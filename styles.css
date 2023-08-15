@@ -146,10 +146,6 @@ body{
    margin: auto;
 }
 
-.wrapper .section .section5 .insOptions ul{
-   text-align: justify;
-}
-
 body.active .wrapper .sidebar{
    left: -225px;
 }
