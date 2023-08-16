@@ -101,12 +101,12 @@ body{
 .wrapper .section .top_navbar .hamburger a:hover{
    color: #a2ecff;
 }
-
+/*
 .wrapper .section .section2 .uline h2{
    text-decoration: underline;
    font-weight: bold;
 }
-
+*/
 .wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7{
   margin: 30px;
   background: #fff;
