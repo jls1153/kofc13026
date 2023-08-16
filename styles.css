@@ -22,6 +22,7 @@ body{
    height: 100%;
    padding: 20px 0;
    transition: all 0.5s ease;
+   text-decoration: none;
 }
 
 .wrapper .sidebar .profile img{
@@ -91,7 +92,6 @@ body{
    display: flex;
    align-items: center;
    padding: 0 30px;
-   text-decoration: none;
 }
 
 .wrapper .section .top_navbar .hamburger a{
