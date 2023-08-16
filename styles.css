@@ -102,6 +102,10 @@ body{
    color: #a2ecff;
 }
 
+.wrapper .section .uline {
+   text-decoration: underline;
+}
+
 .wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7{
   margin: 30px;
   background: #fff;
@@ -110,7 +114,7 @@ body{
   color: #00008b;
 }
 
-.wrapper .section .section .section 7 h1{
+.wrapper .section .section 7 h1{
     text-align: center;
     color: #00008b;
     font-size: 18px; 
