@@ -148,7 +148,6 @@ body{
   border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
-  white-space:nowrap;
 }
 
 #linksTable td, #linksTable th {
@@ -162,8 +161,8 @@ body{
 #linksTable tr:hover {background-color: #ddd;}
 
 #linksTable th {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   text-align: left;
   background-color: rgb(7, 105, 185);
   color: white;
