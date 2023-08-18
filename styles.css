@@ -159,8 +159,8 @@ body{
 #linksTable tr:hover {background-color: #ddd;}
 
 #linksTable th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: left;
   background-color: rgb(7, 105, 185);
   color: white;
