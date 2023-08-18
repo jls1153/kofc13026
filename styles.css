@@ -148,6 +148,7 @@ body{
   border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
+  white-space:nowrap;
 }
 
 #linksTable td, #linksTable th {
