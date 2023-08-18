@@ -152,6 +152,7 @@ body{
 #linksTable td, #linksTable th {
   border: 1px solid #ddd;
   padding: 8px;
+  text-align: left;
 }
 
 #linksTable tr:nth-child(even){background-color: #f2f2f2;}
