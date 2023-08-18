@@ -146,6 +146,7 @@ body{
 #linksTable {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
 }
 
