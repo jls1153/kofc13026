@@ -117,7 +117,13 @@ body{
   color: #00008b;
 }
 
-.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,#section7 h1{
+.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6 h1{
+    text-align: center;
+    color: #00008b;
+    font-size: 14px;
+}
+
+.wrapper .section #section7 h1{
     text-align: center;
     color: #00008b;
     font-size: 14px;
