@@ -160,7 +160,7 @@ body{
   padding-top: 6px;
   padding-bottom: 6px;
   text-align: left;
-  background-color: rgb(7, 105, 185);
+  background-color: rgb(7, 105, 185); /* blue header */
   color: white;
 }
 /*
@@ -176,7 +176,7 @@ body{
    float:center;
    width:40%;
    height:200px;
-   background-color: rgb(7, 105, 185); /* was lightgrey */
+   background-color: #f2f2f2; /* was lightgrey */
 }
 
 #activityBoxes .boxHeader p{
