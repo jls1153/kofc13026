@@ -172,7 +172,7 @@ body{
    display:inline-block;
    position: relative;
    margin: 5px;
-   float:left;
+   float:center;
    width:40%;
    height:200px;
    background-color: lightgrey;
