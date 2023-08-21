@@ -163,11 +163,13 @@ body{
   background-color: rgb(7, 105, 185);
   color: white;
 }
-
+/*
 #activityBoxes div{
    text-align: center;
 }
-.boxHeader p{
+*/
+
+.b1, .b2, .b3, .b4, .boxHeader p{
    font-weight: bold;
    font-style: italic;
 }
