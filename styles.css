@@ -167,6 +167,10 @@ body{
 #activityBoxes div{
    text-align: center;
 }
+.boxHeader p{
+   font-weight: bold;
+   font-style: italic;
+}
 
 .b1, .b2, .b3, .b4 {
    display:inline-block;
