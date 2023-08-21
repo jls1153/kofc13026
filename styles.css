@@ -117,7 +117,7 @@ body{
   color: #00008b;
 }
 
-/* not sure why the .end class (not defined anywhere had to be listed)
+/* not sure why the .end class not defined anywhere but here, had to be listed,
    but without it the h1 for the last class e.g. .section8, did not get presented properly */
 .wrapper .section .section1,.section2,.section3,.section4,.section5,.section6, .section7, .end h1{
     text-align: center;
@@ -176,7 +176,7 @@ body{
    float:center;
    width:40%;
    height:200px;
-   background-color: lightgrey;
+   background-color: rgb(7, 105, 185); /* was lightgrey */
 }
 
 #activityBoxes .boxHeader p{
