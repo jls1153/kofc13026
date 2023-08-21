@@ -164,6 +164,10 @@ body{
   color: white;
 }
 
+#activityBoxes div{
+   text-align: center;
+}
+
 .b1, .b2, .b3, .b4 {
    display:inline-block;
    position: relative;
