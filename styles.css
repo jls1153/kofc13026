@@ -65,9 +65,8 @@ body{
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
    color: #0c7db1;
-
    background:white;
-    border-right: 2px solid rgb(5, 68, 104);
+   border-right: 2px solid rgb(5, 68, 104);
 }
 
 .wrapper .sidebar ul li a:hover .icon,
@@ -115,6 +114,7 @@ body{
   padding: 50px;
   line-height: 28px;
   color: #00008b;
+  font-size: 16px;
 }
 
 /* not sure why the .end class not defined anywhere but here, had to be listed,
