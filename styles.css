@@ -109,7 +109,7 @@ body{
    font-weight: bold;
 }
 
-.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7{
+.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6,.section7,.section8{
   margin: 30px;
   background: #fff;
   padding: 50px;
@@ -119,21 +119,19 @@ body{
 
 /* not sure why the .end class not defined anywhere but here, had to be listed,
    but without it the h1 for the last class e.g. .section8, did not get presented properly */
-.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6, .section7, .end h1{
+.wrapper .section .section1,.section2,.section3,.section4,.section5,.section6, .section7, .section8, .end h1{
     text-align: center;
     color: #00008b;
     font-size: 14px;
 }
 
-.wrapper .section .section5 .insOptionsList div{
+.wrapper .section .section6 .insOptionsList div{
     text-align: center;
 }
 
-/* .wrapper .section .section5 ul li{ */
-.wrapper .section .section5 .insOptions li{
+.wrapper .section .section6 .insOptions li{
    list-style-type: disc;
    list-style-position: inside;
-   /* display: inline-block; */
    width: 50%;
    margin: auto;
    font-style: italic;
@@ -163,11 +161,6 @@ body{
   background-color: rgb(7, 105, 185); /* blue header */
   color: white;
 }
-/*
-#activityBoxes div{
-   text-align: center;
-}
-*/
 
 .b1, .b2, .b3, .b4 {
    display:inline-block;
