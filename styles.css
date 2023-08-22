@@ -169,7 +169,8 @@ body{
    float:center;
    width:40%;
    height:200px;
-   background-color: #f2f2f2; /* was lightgrey */
+   font-size: 14px;
+   background-color: #f2f2f2;
 }
 
 .boxHeader {
