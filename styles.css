@@ -148,6 +148,7 @@ body{
   border: 1px solid #ddd;
   padding: 4px;
   text-align: left;
+  font-size: 16px;
 }
 
 #siteTable tr:nth-child(even){background-color: #f2f2f2;}
