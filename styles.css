@@ -179,9 +179,9 @@ body{
    background-color: #f2f2f2; /* was lightgrey */
 }
 
-#activityBoxes .boxHeader p{
-   font-weight: bold;
-   font-style: italic;
+.boxHeader {
+   background: rgb(7, 105, 185);
+   color: white;
 }
 
 body.active .wrapper .sidebar{
