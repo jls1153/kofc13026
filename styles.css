@@ -138,10 +138,11 @@ section {
   color: var(--gray);
   text-transform: none;
 }
-.membership .box-container h3 {
+.membership .box-container .box h3 {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  font-size: 2rem;
 }
 /* membership */
 
