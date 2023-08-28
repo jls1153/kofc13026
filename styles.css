@@ -138,7 +138,7 @@ section {
   color: var(--gray);
   text-transform: none;
 }
-.membership .box-container .box h2 {
+.membership .box-container h3 {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
