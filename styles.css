@@ -147,44 +147,44 @@ section {
 }
 /* membership */
 
-/* team */
-.team {
+/* leadership */
+.leadership {
   background-color: var(--light-gray);
 }
 
-.team .box-container .box .image {
+.leadership .box-container .box .image {
   height: 40rem;
   overflow: hidden;
   margin-bottom: 2rem;
 }
 
-.team .box-container .box .image img {
+.leadership .box-container .box .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.team .box-container {
+.leadership .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 3rem;
 }
 
-.team .box-container .box {
+.leadership .box-container .box {
   background-color: var(--white);
   box-shadow: var(--box-shadow);
 }
 
-.team .box-container .box .info {
+.leadership .box-container .box .info {
   text-align: center;
 }
 
-.team .box-container .box .info h3 {
+.leadership .box-container .box .info h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.team .box-container .box .info p {
+.leadership .box-container .box .info p {
   font-size: 1.5rem;
   padding: 1.5rem;
   line-height: 2;
@@ -194,10 +194,10 @@ section {
   text-transform: none;
 }
 
-.team .box-container .box .image img:hover {
+.leadership .box-container .box .image img:hover {
   transform: scale(1.1);
 }
-/* team */
+/* leadership */
 
 /* services */
 .services .box-container {
