@@ -411,7 +411,8 @@ section {
   }
 
   .header .navbar a {
-    color: #000;
+    /* color: #000; - black */
+    color: rgb(5, 68, 104);
     margin: 0;
     font-size: 2rem;
     margin-top: 2rem;
