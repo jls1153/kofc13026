@@ -137,7 +137,8 @@ section {
   line-height: 2;
   margin-bottom: 1.5rem;
   letter-spacing: 0.1rem;
-  color: var(--gray);
+  /* color: var(--gray); */
+  color: rgb(5, 68, 104);
   text-transform: none;
 }
 .membership .box-container .box h3 {
