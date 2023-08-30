@@ -149,6 +149,7 @@ section {
 }
 .about .box-container .box .motto {
   text-align: center;
+  font-weight: bold;
   font-style: italic;
 }
 /* about */
