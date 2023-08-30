@@ -141,12 +141,6 @@ section {
   color: rgb(5, 68, 104);
   text-transform: none;
 }
-.about .box-container .box h3 {
-  text-align: center;
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 2rem;
-}
 .about .box-container .box .motto p {
   text-align: center;
   font-weight: bold;
@@ -346,6 +340,12 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+}
+.join .box-container .box h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2rem;
 }
 /*
 .join .box-container .box input {
