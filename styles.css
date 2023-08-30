@@ -147,6 +147,10 @@ section {
   font-weight: bold;
   font-size: 2rem;
 }
+.about .box-container .box .motto {
+  text-align: center;
+  font-style: italic;
+}
 /* about */
 
 /* leadership */
