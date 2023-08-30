@@ -298,46 +298,46 @@ section {
 }
 /* insurance */
 
-/* contact */
-.contact .box-container {
+/* join */
+.join .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
-.contact .box-container .box .form-group ion-icon {
+.join .box-container .box .form-group ion-icon {
   font-size: 2.5rem;
   color: var(--primary-color);
 }
 
-.contact .box-container .box .form-group span {
+.join .box-container .box .form-group span {
   font-size: 2rem;
   margin-left: 1rem;
 }
 
-.contact .box-container .box .form-group {
+.join .box-container .box .form-group {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.contact .box-container .box {
+.join .box-container .box {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
 }
 
-.contact .box-container .box input {
+.join .box-container .box input {
   border: 0.1rem solid #000;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 
-.contact .box-container .box textarea {
+.join .box-container .box textarea {
   border: 0.1rem solid #000;
   padding: 1rem;
 }
 
-.contact .box-container .box button {
+.join .box-container .box button {
   margin-top: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
@@ -345,11 +345,11 @@ section {
   font-weight: bold;
 }
 
-.contact .box-container .box button:hover {
+.join .box-container .box button:hover {
   background-color: var(--primary-color);
   color: var(--white);
 }
-/* contact */
+/* join */
 
 /* footer */
 .footer {
