@@ -178,6 +178,7 @@ section {
 
 .leadership .box-container .box .info {
   text-align: center;
+  color: rgb(5, 68, 104);
 }
 
 .leadership .box-container .box .info h3 {
@@ -187,11 +188,11 @@ section {
 
 .leadership .box-container .box .info p {
   font-size: 1.5rem;
-  padding: .5rem; /* was 1.5 */
+  /* padding: .5rem;  was 1.5 */
   line-height: 1; /* was 2 */
   margin-bottom: 1.5rem;
   letter-spacing: 0.1rem;
-  color: rgb(5, 68, 104); /* was color: var(--gray);*/
+  /* color: rgb(5, 68, 104); was color: var(--gray);*/
   text-transform: none;
 }
 
