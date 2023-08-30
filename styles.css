@@ -188,7 +188,7 @@ section {
 .leadership .box-container .box .info p {
   font-size: 1.5rem;
   padding: 1.5rem;
-  line-height: 2;
+  line-height: 1; /* was 2 */
   margin-bottom: 1.5rem;
   letter-spacing: 0.1rem;
   color: var(--gray);
