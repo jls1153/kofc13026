@@ -202,44 +202,45 @@ section {
 }
 /* leadership */
 
-/* services */
-.services .box-container {
+/* activities */
+.activities .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 5rem;
 }
 
-.services .box-container .box {
+.activities .box-container .box {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: var(--box-shadow);
   padding: 1.5rem;
+  color: rgb(5, 68, 104);
 }
 
-.services .box-container .box:hover {
+.activities .box-container .box:hover {
   box-shadow: none;
 }
 
-.services .box-container .box ion-icon {
+.activities .box-container .box ion-icon {
   font-size: 6rem;
   color: var(--primary-color);
   margin-bottom: 2rem;
 }
 
-.services .box-container .box span {
+.activities .box-container .box span {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.services .box-container .box p {
+.activities .box-container .box p {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  color: var(--gray);
+  /* color: var(--gray); */
   line-height: 2;
 }
-/* services */
+/* activities */
 
 /* projects */
 .projects {
