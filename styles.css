@@ -119,20 +119,20 @@ section {
 }
 /* header */
 
-/* membership */
-.membership .box-container .box img {
+/* about */
+.about .box-container .box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.membership .box-container {
+.about .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
-.membership .box-container .box p {
+.about .box-container .box p {
   font-size: 1.5rem;
   line-height: 2;
   margin-bottom: 1.5rem;
@@ -141,13 +141,13 @@ section {
   color: rgb(5, 68, 104);
   text-transform: none;
 }
-.membership .box-container .box h3 {
+.about .box-container .box h3 {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
   font-size: 2rem;
 }
-/* membership */
+/* about */
 
 /* leadership */
 .leadership {
@@ -242,30 +242,30 @@ section {
 }
 /* activities */
 
-/* projects */
-.projects {
+/* insurance */
+.insurance {
   background-color: var(--light-gray);
 }
 
-.projects .box-container .box .image {
+.insurance .box-container .box .image {
   position: relative;
   overflow: hidden;
   height: 40rem;
 }
 
-.projects .box-container .box .image img {
+.insurance .box-container .box .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.projects .box-container {
+.insurance .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 5rem;
 }
 
-.projects .box-container .box .image .overlay {
+.insurance .box-container .box .image .overlay {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -282,21 +282,21 @@ section {
   transform: translateY(-40rem);
 }
 
-.projects .box-container .box .image .overlay h3 {
+.insurance .box-container .box .image .overlay h3 {
   font-size: 2rem;
   color: var(--white);
   margin-bottom: 1rem;
 }
 
-.projects .box-container .box .image .overlay span {
+.insurance .box-container .box .image .overlay span {
   font-size: 1.5rem;
   color: var(--gray);
 }
 
-.projects .box-container .box:hover .image .overlay {
+.insurance .box-container .box:hover .image .overlay {
   transform: translateY(0);
 }
-/* projects */
+/* insurance */
 
 /* contact */
 .contact .box-container {
