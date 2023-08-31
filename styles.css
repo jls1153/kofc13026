@@ -61,7 +61,6 @@ section {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,6 +77,12 @@ section {
   font-size: 6rem;
   text-align: center;
   letter-spacing: 0.2rem;
+}
+.home image img {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  object-fit: cover;
 }
 /* home */
 
