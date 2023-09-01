@@ -276,7 +276,7 @@ section {
   gap: 5rem;
 }
 
-.insurance .box-container .box p {
+.insurance .box-container .box p .insOptionsList{
   font-size: 1.5rem;
   line-height: 2;
   margin-bottom: 1.5rem;
