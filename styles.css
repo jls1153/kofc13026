@@ -276,7 +276,7 @@ section {
   gap: 5rem;
 }
 
-.insurance .box-container .box p .insOptionsList{
+.insurance .box-container .box p {
   font-size: 1.5rem;
   line-height: 2;
   margin-bottom: 1.5rem;
@@ -286,8 +286,12 @@ section {
   text-transform: none;
 }
 
-.insurance .box-container .box div{
+.insurance .box-container .box div {
     text-align: center;
+}
+
+.insurance .box-container .box insOptionsList {
+    text-align: left;
     line-height: 2;
 }
 
