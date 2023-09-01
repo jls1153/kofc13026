@@ -79,8 +79,8 @@ section {
   letter-spacing: 0.2rem;
 }
 .home image img {
-  width: 50%;
-  height: 50%;
+  width: 200px; /* was 50% */
+  height: 300px; /* was 50% */
   justify-content: center;
   object-fit: cover;
 }
