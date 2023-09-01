@@ -78,7 +78,7 @@ section {
   text-align: center;
   letter-spacing: 0.2rem;
 }
-.home image img {
+.home image img .logo {
   width: 200px; /* was 50% */
   height: 300px; /* was 50% */
   justify-content: center;
