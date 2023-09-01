@@ -289,6 +289,12 @@ section {
 .insurance .box-container .box div{
     text-align: center;
 }
+
+.insurance .box-container .box h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
 /*
 .wrapper .section .section6 .insOptions li{
    list-style-type: disc;
