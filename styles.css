@@ -276,6 +276,16 @@ section {
   gap: 5rem;
 }
 
+.insurance .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+  /* color: var(--gray); */
+  color: rgb(5, 68, 104);
+  text-transform: none;
+}
+
 .insurance .box-container .box .image .overlay {
   width: 100%;
   position: absolute;
