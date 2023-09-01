@@ -285,11 +285,12 @@ section {
   color: rgb(5, 68, 104);
   text-transform: none;
 }
-/*
+
 .insurance .box-container .box div{
     text-align: center;
+    line-height: 2;
 }
-*/
+
 .insurance .box-container .box h3 {
   text-align: center;
   color: rgb(5, 68, 104);
