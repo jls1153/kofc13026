@@ -82,7 +82,7 @@ section {
   width: 200px; /* was 50% */
   height: 300px; /* was 50% */
   justify-content: center;
-  object-fit: cover;
+  object-fit: contain;
 }
 /* home */
 
