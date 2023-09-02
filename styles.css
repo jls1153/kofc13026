@@ -394,7 +394,7 @@ section {
   font-weight: bold;
   font-size: 2rem;
 }
-.join .box-container .box joinInfo {
+.join .box-container .box .joinInfo {
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
