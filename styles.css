@@ -290,9 +290,12 @@ section {
     text-align: center;
 }
 
-.insurance .box-container .box insOptionsList {
-    text-align: left;
-    line-height: 2;
+.insurance .box-container .box .insOptionsList ul{
+    padding-left:4;  
+}
+
+.insurance .box-container .box .insOptionsList ul li {
+    list-style-position:inside;  
 }
 
 .insurance .box-container .box h3 {
