@@ -291,6 +291,7 @@ section {
 }
 
 .insurance .box-container .box .insOptionsList ul{
+    display: inline-block;
     padding-left:4;  
 }
 
