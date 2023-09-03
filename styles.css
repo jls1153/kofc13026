@@ -286,7 +286,7 @@ section {
   text-transform: none;
 }
 
-.insurance .box-container .box .insOptionsList div {
+.insurance .box-container .box .insOptionsList {
     text-align: center;
 }
 
