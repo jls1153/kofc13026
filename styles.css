@@ -286,7 +286,7 @@ section {
   text-transform: none;
 }
 
-.insurance .box-container .box div {
+.insurance .box-container .box .insOptionsList div {
     text-align: center;
 }
 
@@ -295,7 +295,9 @@ section {
 }
 
 .insurance .box-container .box .insOptionsList ul li {
-    list-style-position:inside;  
+    list-style-position:inside;
+    font-size: 1.5rem;
+    color: rgb(5, 68, 104);
 }
 
 .insurance .box-container .box h3 {
