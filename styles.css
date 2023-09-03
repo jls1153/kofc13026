@@ -398,8 +398,8 @@ section {
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
-  /* line-height: 1;
-  letter-spacing: 0.1rem; */
+  line-height: 12px;
+  /* letter-spacing: 0.1rem; */
   line-spacing: 0em;
 }
 /*
