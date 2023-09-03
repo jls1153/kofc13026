@@ -292,14 +292,15 @@ section {
 
 .insurance .box-container .box .insOptionsList ul{
     display: inline-block;
-    padding-left:4;  
+    padding-left:4;
+    text-align: left;  
 }
 
-.insurance .box-container .box .insOptionsList ul li {
+/*.insurance .box-container .box .insOptionsList ul li {
     list-style-position:inside;
     font-size: 1.5rem;
     color: rgb(5, 68, 104);
-}
+}*/
 
 .insurance .box-container .box h3 {
   text-align: center;
