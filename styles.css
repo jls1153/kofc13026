@@ -341,6 +341,7 @@ section {
   padding: 2px 16px;
   text-align: left;
   line-height: 1;
+  line-spacing: 0em;
 }
 /*
 .wrapper .section .section6 .insOptions li{
