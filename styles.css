@@ -316,6 +316,7 @@ section {
   transition: 0.3s;
   width:60%;
   /*text-align: center;*/
+  display: inline-block;
   justify-content: center;
 }
 
