@@ -327,7 +327,7 @@ section {
   color: rgb(5, 68, 104);
   font-weight: bold;
   font-size: 2rem;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 /* Add some padding inside the cardInfo container */
