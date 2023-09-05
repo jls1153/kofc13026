@@ -338,6 +338,9 @@ section {
   padding: 2px 16px;
   text-align: left;
 }
+.insurance .box-container .box .cardInfo p {
+  line-spacing: 0em;
+}
 /*
 .wrapper .section .section6 .insOptions li{
    list-style-type: disc;
