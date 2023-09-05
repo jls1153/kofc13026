@@ -314,14 +314,11 @@ section {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 80%;
   margin: auto; 
-  /*position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  display: inline-block; */
+  width:max-content;
+  /*text-align: center;
+  display: inline-block;
+  justify-content: center;*/
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -340,12 +337,6 @@ section {
 .insurance .box-container .box .cardInfo {
   padding: 2px 16px;
   text-align: left;
-  line-height: 1;
-  /* line-spacing: 0em; */
-}
-/* Add some padding inside the cardInfo container */
-.insurance .box-container .box .cardInfo p {
-  line-spacing: 0em;
 }
 /*
 .wrapper .section .section6 .insOptions li{
